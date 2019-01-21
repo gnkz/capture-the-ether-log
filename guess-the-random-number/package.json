@@ -1,0 +1,10 @@
+{
+  "name": "vault",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Gnkz",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^4.0.20"
+  }
+}
