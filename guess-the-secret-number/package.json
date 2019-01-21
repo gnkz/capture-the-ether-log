@@ -1,0 +1,9 @@
+{
+  "name": "guess-the-secret-number",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^4.0.21"
+  }
+}
