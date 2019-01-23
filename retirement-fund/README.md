@@ -79,6 +79,6 @@ Simply deploy the [Kamikaze](Kamikaze.sol) with the challenge
 the `attack` function to force send the balance to the challenge.
 
 Now if you call the `collectPenalty` function on the challenge
-contract the `withdrawn` function will underflow because
+contract the `withdrawn` variable will underflow because
 `contract.balance > startBalance` and the condition of
 `withdrawn > 0` will be true and you will receive all the `ether`.
