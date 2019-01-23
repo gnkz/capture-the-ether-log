@@ -67,13 +67,13 @@ that was signed.
 The transaction parameters are
 ```json
 {
-  nonce: "0x00",
-  gasPrice: "0x3b9aca00",
-  gasLimit: "0x15f90",
-  to: "0x6B477781b0e68031109f21887e6B5afEAaEB002b",
-  value: "0x0",
-  data: "0x5468616e6b732c206d616e21",
-  chainId: "0x03" 
+  "nonce":    "0x00",
+  "gasPrice": "0x3b9aca00",
+  "gasLimit": "0x15f90",
+  "to":       "0x6B477781b0e68031109f21887e6B5afEAaEB002b",
+  "value":    "0x0",
+  "data":     "0x5468616e6b732c206d616e21",
+  "chainId":  "0x03" 
 }
 ```
 
