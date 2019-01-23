@@ -65,7 +65,7 @@ at least `1000000`.
 The first thing that I noticed about this smart contract is the flow
 of the `transferFrom` function. This function allows someone that was
 previously approved to transfer tokens from another account. To do the
-trasnfer this function uses the `_transfer` function and the odd thing
+transfer this function uses the `_transfer` function and the odd thing
 is that the `_transfer` function doensn't have a `from` parameter,
 instead it transfer the tokens directly from the `msg.sender`. This
 means that if the `msg.sender` has `0` tokens and we use the `transferFrom`
