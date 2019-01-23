@@ -30,16 +30,13 @@ const start = async () => {
     chainId: tx.networkId,
   };
 
-  console.log(txParams);
   const serializedTx = ethers.utils.serializeTransaction(txParams);
-  console.log(serializedTx);
   const txDigest = ethers.utils.keccak256(serializedTx);
-  console.log(txDigest);
   const address = ethers.utils.recoverAddress(txDigest, signature);
   const pubKey = ethers.utils.recoverPublicKey(txDigest, signature);
   
   console.log("Address:", address);
-  console.log("Publick key:", pubKey);
+  console.log("Public key:", pubKey);
 };
 
 start().catch(console.error);
